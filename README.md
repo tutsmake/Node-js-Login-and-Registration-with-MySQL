@@ -7,7 +7,7 @@ An example of user registration and user login application developed using Node.
 
 The application allows users to register, login and access to the user's private page session information.
 
-Install
+<h1> Install </h1>
 Make sure you have Node.js and MySQL installed.
 
 npm install
