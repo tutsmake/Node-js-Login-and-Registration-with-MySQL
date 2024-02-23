@@ -11,20 +11,21 @@ The application allows users to register, login and access to the user's private
 Make sure you have Node.js and MySQL installed.
 
 npm install
-1.Import
+<h1> Import </h1>
 Upload sql-file.sql to MySQL
 
-CREATE TABLE IF NOT EXISTS `users` (
+<pre> CREATE TABLE IF NOT EXISTS `users` (
 	id int(11) NOT NULL AUTO_INCREMENT,
 	name varchar(50) NOT NULL,
 	password varchar(32) NOT NULL,
 	email varchar(50) NOT NULL,
 	CONSTRAINT id PRIMARY KEY(user_id),
-);
+); </pre>
 
-2.Configure
-Edit the db.js file.
+<h1> Configure </h1>
+Edit the db.js file from lib folder.
 
-3.Start
+<h1> Start </h1>
 npm start
+
 Your app should now be running on localhost:3000.
